@@ -78,3 +78,6 @@ if __name__ == '__main__':
 
     linked_list.head = head_node
     linked_list.tail = tail_node
+    
+    linked_list.remove(1)
+    linked_list.iterate()
